@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Barryvdh\DomPDF\Facade as PDF;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+Route::resource('resume', 'ResumesController');
+Route::get('pdf','ResumesController@pdf');
+// Route::get('res', function () {
+//     return view ('resume');
+// });

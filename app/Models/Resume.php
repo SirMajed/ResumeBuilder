@@ -9,6 +9,10 @@ class Resume extends Model
 {
     use HasFactory;
     protected $fillable = [
+        'name',
+        'email',
+        'birth_day',
+        'bio',
         'degree',
         'university',
         'gpa',
@@ -20,6 +24,7 @@ class Resume extends Model
         'certificate_name',
         'certificate_issuer',
         'certificate_date',
-        'language',
+        'native_language',
+        'other_language',
     ];
 }
