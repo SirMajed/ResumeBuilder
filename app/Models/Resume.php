@@ -26,5 +26,6 @@ class Resume extends Model
         'certificate_date',
         'native_language',
         'other_language',
+        'path',
     ];
 }

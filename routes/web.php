@@ -17,7 +17,8 @@ Route::get('/', function () {
     return view('index');
 });
 Route::resource('resume', 'ResumesController');
-Route::get('pdf','ResumesController@pdf');
+
+Route::get('/CV', 'ResumesController@indexx');
 // Route::get('res', function () {
 //     return view ('resume');
 // });

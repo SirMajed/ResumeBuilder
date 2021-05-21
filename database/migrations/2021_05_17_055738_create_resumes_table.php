@@ -32,6 +32,7 @@ class CreateResumesTable extends Migration
             $table->string('certificate_date')->nullable();
             $table->string('native_language')->nullable();
             $table->string('other_language')->nullable();
+            $table->string('path')->nullable();
             $table->timestamps();
         });
     }
