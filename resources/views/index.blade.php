@@ -61,7 +61,7 @@
       
           <div class="flex justify-center">
             <div class="flex">
-              <h1 class="text-gray-600 font-bold md:text-2xl text-xl">Resume Builder</h1>
+              <h1 class="text-gray-600 font-bold md:text-2xl text-xl">CV Builder</h1>
             </div>
           </div>
 
