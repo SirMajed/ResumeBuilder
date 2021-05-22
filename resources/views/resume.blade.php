@@ -13,7 +13,6 @@
             document.getElementsByClassName("button")[0].style.visibility = "hidden";
             window.print();
             document.getElementsByClassName("button")[0].style.visibility = "";
-
         }
     </script>
 </head>
